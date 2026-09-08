@@ -32,7 +32,7 @@ st.markdown(
 
 np.random.seed(42)
 
-n = 100000
+n = 2000000
 
 df = pd.DataFrame({
     "Transaction_ID": np.arange(1, n + 1),
